@@ -1,4 +1,19 @@
 # PHP Yorkshire 2019 - Real Time Workshop
+
+## Pre-installation requirements
+
+To use this repo:
+
+* git
+* docker
+* docker-compose (for convenience you might alias this to `dc` in your shell)
+
+For the workshop itself:
+
+* Firefox or Chromium (any derivative)
+* `tail` (seriously surprised if you're missing this)
+* IDE or similar (you'll be reading the main README a lot so markdown highlighting will help!)
+
 ## Pre-conference container build
 
 Run `docker-compose build` to get the containers downloaded and built - best to handle this
