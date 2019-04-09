@@ -5,7 +5,7 @@
 To use this repo:
 
 * git
-* docker
+* docker (17.05 or higher)
 * docker-compose (for convenience you might alias this to `dc` in your shell)
 
 For the workshop itself:
