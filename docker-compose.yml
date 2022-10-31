@@ -56,13 +56,6 @@ services:
       - TZ=Europe/London
     env_file:
       - ./docker/zmq.env
-  crossbar_7:
-    build: docker/crossbar
-    image: websocket-workshop/crossbar
-    ports:
-      - "8007:8000"
-    environment:
-      - TZ=Europe/London
   http:
     image: httpd:2.4
     ports:

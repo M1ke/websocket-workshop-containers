@@ -1,5 +1,5 @@
 {
-  "name": "m1ke/phpyorkshire-workshop-app",
+  "name": "m1ke/websocket-workshop-app",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -8,6 +8,11 @@
       "email": "mike@m1ke.me"
     }
   ],
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
   "require": {
     "slim/slim": "^3.0",
     "rakibtg/sleekdb": "^1.0",

@@ -1,5 +1,5 @@
 {
-  "name": "m1ke/phpyorkshire-workshop-client",
+  "name": "m1ke/websocket-workshop-client",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -8,6 +8,11 @@
       "email": "mike@m1ke.me"
     }
   ],
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
   "require": {
     "voryx/thruway": "^0.5.3",
     "thruway/pawl-transport": "^0.5.0"

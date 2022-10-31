@@ -1,5 +1,5 @@
 {
-  "name": "m1ke/phpyorkshire-workshop-zmq",
+  "name": "m1ke/websocket-workshop-zmq",
   "type": "project",
   "license": "MIT",
   "authors": [
@@ -8,6 +8,11 @@
       "email": "mike@m1ke.me"
     }
   ],
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
   "require": {
     "rakibtg/sleekdb": "^1.0",
     "monolog/monolog": "^1.24",
